@@ -3,7 +3,7 @@
 @section('content')
 <div class="signinPage">
   <div class="container">
-    <h2 class="title">kanbanにログイン</h2>
+    <h2 class="title">Memolistにログイン</h2>
     <div class="text-center m-3">or</div>
     <div class="text-center">
       <p class="acountPage_link"><a href="{{ route('register') }}">アカウントを作成</a></p>
