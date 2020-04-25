@@ -14,7 +14,10 @@ class CreateMemosTable extends Migration
     public function up()
     {
         Schema::create('memos', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+            $table->string('title');
+            $table->string('memo');
+            $table->integer('listing_id')->unsigned();
             $table->timestamps();
         });
     }

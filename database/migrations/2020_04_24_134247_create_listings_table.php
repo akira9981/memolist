@@ -14,11 +14,12 @@ class CreateListingsTable extends Migration
     public function up()
     {
         Schema::create('listings', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+            $table->string('title');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *
