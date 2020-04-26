@@ -3,7 +3,7 @@
 @section('content')
 <div class="sinupPage">
   <div class="titleArea">
-    <h1>アカウントを新規作成</h1>
+    <h1>アカウント新規作成</h1>
     <div class="m-3">or</div>
       <p class="acountPage_link"><a href="{{ route('login') }}">アカウントにサインイン</a></p>
     </div>

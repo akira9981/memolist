@@ -16,6 +16,7 @@
     <link href="{{ asset('css/button.css') }}" rel="stylesheet">
     <link href="{{ asset('css/common.css') }}" rel="stylesheet">
     <link href="{{ asset('css/header.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
     <link href="{{ asset('css/card_edit.css') }}" rel="stylesheet">
     <link href="{{ asset('css/card_new.css') }}" rel="stylesheet">
     <link href="{{ asset('css/card_show.css') }}" rel="stylesheet">
@@ -25,7 +26,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
 @auth
@@ -56,5 +56,17 @@
 </header>
 @endauth
 @yield('content')
+<footer class="footer">
+  <div class="writing-instrument">
+    <div class="pen">
+      <div class="pen1"></div>
+      <div class="pen2"></div>
+    </div>
+    <div class="keshi">
+      <div class="keshi1"></div>
+      <div class="keshi2"></div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

@@ -13,6 +13,7 @@
       padding: 10px;
       margin-left: 20px;
       min-width: 250px;
+      border-radius: 10px;
       &:last-child {
         margin-right: 20px;
       }
@@ -81,9 +82,11 @@
           }
         }
         .addCard {
-          color: #8c8c8c;
+          color: #fff;
+          text-shadow: 0px 0px 2px #000, 2px 2px 3px #000;
           &_link {
-            color: #8c8c8c;
+            color: #fff;
+            text-shadow: 0px 0px 2px #000, 2px 2px 3px #000;
           }
         }
       }

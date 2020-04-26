@@ -1,0 +1,41 @@
+.footer {
+  display: inline-block;
+  position: absolute;
+  bottom: 16px;
+  right: 50px;
+}
+.footer .writing-instrument {
+  display: inline-block;
+  height: 40px;
+  width: 250px;
+}
+.footer .writing-instrument .pen {
+  display: inline-block;
+}
+.footer .writing-instrument .pen .pen1 {
+  width: 98px;
+  height: 15px;
+  background: linear-gradient(90deg, #333 8%, #f2f2f2 calc(8% + 1px), #f2f2f2 70%, #333 calc(70% + 1px));
+  transform: rotate(-20deg);
+}
+.footer .writing-instrument .pen .pen2 {
+  margin-left: 46px;
+  width: 98px;
+  height: 15px;
+  background: linear-gradient(90deg, #ea4335 8%, #f2f2f2 8%, #f2f2f2 70%, #ea4335 70%);
+}
+.footer .writing-instrument .keshi {
+  float: right;
+}
+.footer .writing-instrument .keshi .keshi1 {
+  width: 98px;
+  height: 12px;
+  border-radius: 2px 2px 0 0;
+  background: #5a95f5;
+}
+.footer .writing-instrument .keshi .keshi2 {
+  width: 97px;
+  height: 22px;
+  border-radius: 0 0 4px 4px;
+  background: #d2e2fc;
+}

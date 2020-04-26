@@ -3,7 +3,7 @@
 
 <div class="topPage">
   <div class="listWrapper">
-     @foreach ($listings as $listing) 
+    @foreach ($listings as $listing) 
       <div class="list">
         <div class="list_circle"></div>
         <div class="list_header">
@@ -29,7 +29,7 @@
           </div>
         </div>
       </div>
-     @endforeach
+    @endforeach
   </div>
 </div>
 @endsection
