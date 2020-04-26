@@ -1,0 +1,79 @@
+.topPage {
+  min-height: 93vh;
+  padding-top: 30px;
+  background: #bababa;
+  overflow-x: scroll;
+}
+.topPage .listWrapper {
+  display: flex;
+  height: 100%;
+  align-items: baseline;
+}
+.topPage .listWrapper .list {
+  position: relative;
+  background: #e2e4e6;
+  padding: 10px;
+  margin-left: 20px;
+  min-width: 250px;
+}
+.topPage .listWrapper .list:last-child {
+  margin-right: 20px;
+}
+.topPage .listWrapper .list_header {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topPage .listWrapper .list_header_title {
+  font-size: 20px;
+  margin: 0;
+}
+.topPage .listWrapper .list_header_action .fa-trash {
+  margin-right: 10px;
+}
+.topPage .listWrapper .list_header_action .fa-pen, .topPage .listWrapper .list_header_action .fa-trash {
+  font-size: 18px;
+  color: #8c8c8c;
+}
+.topPage .listWrapper .list .cardWrapper {
+  overflow-y: scroll;
+  max-height: 76vh;
+}
+.topPage .listWrapper .list .cardWrapper .cardDetail_link {
+  text-decoration: none;
+  color: #323232;
+}
+.topPage .listWrapper .list .cardWrapper .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.topPage .listWrapper .list .cardWrapper .card_title {
+  margin-block-start: 0em;
+  font-size: 17px;
+}
+.topPage .listWrapper .list .cardWrapper .card_detail {
+  display: none;
+}
+.topPage .listWrapper .list .cardWrapper .card_detail.is-exist {
+  display: block;
+  color: #999;
+}
+.topPage .listWrapper .list .cardWrapper .card_detail.is-exist > i {
+  display: block;
+}
+.topPage .listWrapper .list .cardWrapper .addCard {
+  color: #8c8c8c;
+}
+.topPage .listWrapper .list .cardWrapper .addCard_link {
+  color: #8c8c8c;
+}

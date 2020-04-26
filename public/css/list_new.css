@@ -1,0 +1,7 @@
+.listnewPage .new_list {
+  max-width: 500px;
+  margin: 100px auto 0;
+}
+.listnewPage .new_list .error_title {
+  color: #e40909;
+}
