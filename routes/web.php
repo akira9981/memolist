@@ -12,10 +12,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','ListingsController@index');
+Route::get('/new', 'ListingsController@new')->name('new');
+Route::post('/listings','ListingsController@store');
+Route::get('/listingsedit/{listing_id}', 'ListingsController@edit');
+Route::post('/listing/edit','ListingsController@update');
+Route::get('/listingsdelete/{listing_id}', 'ListingsController@destroy');
 
 Auth::routes();
 
