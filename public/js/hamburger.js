@@ -86,9 +86,9 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./resources/js/humburger.js":
+/***/ "./resources/js/hamburger.js":
 /*!***********************************!*\
-  !*** ./resources/js/humburger.js ***!
+  !*** ./resources/js/hamburger.js ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -111,12 +111,12 @@ toggleNav();
 
 /***/ 1:
 /*!*****************************************!*\
-  !*** multi ./resources/js/humburger.js ***!
+  !*** multi ./resources/js/hamburger.js ***!
   \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/akirayamashita/myapp/memolist/resources/js/humburger.js */"./resources/js/humburger.js");
+module.exports = __webpack_require__(/*! /Users/akirayamashita/myapp/memolist/resources/js/hamburger.js */"./resources/js/hamburger.js");
 
 
 /***/ })

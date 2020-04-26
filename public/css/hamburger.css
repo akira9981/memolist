@@ -1,4 +1,4 @@
-.global-nav {
+.header .header_menu .global-nav {
   position: fixed;
   right: -320px;
   top: 0;
@@ -10,52 +10,60 @@
   z-index: 200;
   overflow-y: auto;
 }
-.global-nav__list {
+.header .header_menu .global-nav_list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.global-nav__list__item {
+.header .header_menu .global-nav_list_item {
   text-align: center;
   padding: 0 14px;
 }
-.global-nav__list__item a {
+.header .header_menu .global-nav_list_item a {
   display: block;
   padding: 8px 0;
   border-bottom: 1px solid #eee;
   text-decoration: none;
   color: #111;
 }
-.global-nav__list__item a:hover {
+.header .header_menu .global-nav_list_item a:hover {
   background-color: #eee;
 }
-.hamburger {
+.header .header_menu .hamburger {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 20px;
   width: 40px;
   height: 40px;
   cursor: pointer;
-  z-index: 300;
 }
-.hamburger__line {
+.header .header_menu .hamburger .hamburger_line1 {
+  display: inline-block;
   position: absolute;
-  left: 11px;
-  width: 18px;
-  height: 1px;
+  height: 2px;
+  width: 30px;
   background-color: #111;
   transition: all 0.6s;
+  top: 16px;
 }
-.hamburger__line .hamburger__line--1 {
-  top: 14px;
+.header .header_menu .hamburger .hamburger_line2 {
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  background-color: #111;
+  transition: all 0.6s;
+  top: 22px;
 }
-.hamburger__line .hamburger__line--2 {
-  top: 20px;
+.header .header_menu .hamburger .hamburger_line3 {
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  background-color: #111;
+  transition: all 0.6s;
+  top: 28px;
 }
-.hamburger__line .hamburger__line--3 {
-  top: 26px;
-}
-.black-bg {
+.header .header_menu .black-bg {
   position: fixed;
   left: 0;
   top: 0;
@@ -68,22 +76,22 @@
   transition: all 0.6s;
   cursor: pointer;
 }
-.nav-open .global-nav {
+.header .header_menu .nav-open .global-nav {
   right: 0;
 }
-.nav-open .black-bg {
+.header .header_menu .nav-open .black-bg {
   opacity: 0.8;
   visibility: visible;
 }
-.nav-open .hamburger__line--1 {
+.header .header_menu .nav-open .hamburger_line1 {
   transform: rotate(45deg);
   top: 20px;
 }
-.nav-open .hamburger__line--2 {
+.header .header_menu .nav-open .hamburger_line2 {
   width: 0;
   left: 50%;
 }
-.nav-open .hamburger__line--3 {
+.header .header_menu .nav-open .hamburger_line3 {
   transform: rotate(-45deg);
   top: 20px;
 }

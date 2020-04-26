@@ -26,7 +26,7 @@
   font-weight: bold;
 }
 .header .nav .header_menu_inner {
-  display: flex;
+  display: none;
   align-items: center;
   height: 50px;
 }
