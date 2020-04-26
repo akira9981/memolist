@@ -70,12 +70,6 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  width: 100%;
-  height: 100%;
-  border: 30px solid transparent;
-  background: linear-gradient(#4d4d4d, #4d4d4d) no-repeat 100% 100% / 80px 80px, linear-gradient(#4d4d4d, #4d4d4d) no-repeat 0 100% / 80px 80px, linear-gradient(#4d4d4d, #4d4d4d) no-repeat 100% 0 / 80px 80px, linear-gradient(#4d4d4d, #4d4d4d) no-repeat 0 0 / 80px 80px, linear-gradient(#e6e6e6, #e6e6e6);
-  background-clip: padding-box, border-box, border-box, border-box, border-box, border-box;
-  background-origin: border-box;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {

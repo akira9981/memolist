@@ -15,14 +15,14 @@
 .footer .writing-instrument .pen .pen1 {
   width: 98px;
   height: 15px;
-  background: linear-gradient(90deg, #333 8%, #f2f2f2 calc(8% + 1px), #f2f2f2 70%, #333 calc(70% + 1px));
+  background: linear-gradient(90deg, #333 8%, #f0eeee calc(8% + 1px), #d3d2d2 70%, #333 calc(70% + 1px));
   transform: rotate(-20deg);
 }
 .footer .writing-instrument .pen .pen2 {
   margin-left: 46px;
   width: 98px;
   height: 15px;
-  background: linear-gradient(90deg, #ea4335 8%, #f2f2f2 8%, #f2f2f2 70%, #ea4335 70%);
+  background: linear-gradient(90deg, #ea4335 8%, #b6b4b4 8%, #dad8d8 70%, #ea4335 70%);
 }
 .footer .writing-instrument .keshi {
   float: right;
@@ -30,7 +30,7 @@
 .footer .writing-instrument .keshi .keshi1 {
   width: 98px;
   height: 12px;
-  border-radius: 2px 2px 0 0;
+  border-radius: 3px 3px 0 0;
   background: #5a95f5;
 }
 .footer .writing-instrument .keshi .keshi2 {
