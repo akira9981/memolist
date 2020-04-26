@@ -5,6 +5,7 @@
   <div class="listWrapper">
      @foreach ($listings as $listing) 
       <div class="list">
+        <div class="list_circle"></div>
         <div class="list_header">
           <h2 class="list_header_title">{{ $listing->title }}</h2>
           <div class="list_header_action">
@@ -27,7 +28,6 @@
             <a class="addCard_link" href="/listing/{{$listing->id}}/card/new">さらにカードを追加</a>
           </div>
         </div>
-
       </div>
      @endforeach
   </div>
