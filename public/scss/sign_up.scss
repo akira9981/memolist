@@ -1,9 +1,9 @@
-body {
-  overflow: visible;
-}
 
 .sinupPage {
-  margin-top: 10vh;
+  height: 93vh;
+  padding: 30px 30px;
+  background: #fff;
+  overflow-x: scroll;
   .titleArea {
     text-align: center;
     h1 {font-size: 2rem;}
@@ -17,16 +17,16 @@ body {
       }
     }
   }
-  .submitBtn {
-    background: #29b744;
-    color: #fff;
-    width: 200px;
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 90px;
-    transition: opacity .5s;
-    &:hover {
-      opacity: .6;
-    }
-  }
+  // .submitBtn {
+  //   background: #29b744;
+  //   color: #fff;
+  //   width: 200px;
+  //   margin-top: 20px;
+  //   padding: 10px;
+  //   border-radius: 90px;
+  //   transition: opacity .5s;
+  //   &:hover {
+  //     opacity: .6;
+  //   }
+  // }
 }

@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-<!-- バリデーションエラーの場合に表示 --> 
 @include('common.errors')
 <div class="cardnewPgae">
   <div class='container'>

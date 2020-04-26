@@ -1,3 +1,11 @@
+.cardnewPgae {
+  height: 85vh;
+  padding: 30px 30px;
+  background: #fff;
+  overflow-x: scroll;
+  font-size: 20px;
+  font-weight: 600;
+}
 .cardnewPgae .cardnewForm {
   max-width: 500px;
   margin: 70px auto 0;

@@ -21,10 +21,7 @@
   color: black;
 }
 .header .nav .header_menu_title {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   font-size: 25px;
   font-weight: bold;
 }

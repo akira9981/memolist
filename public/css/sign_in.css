@@ -1,5 +1,8 @@
 .signinPage {
-  margin-top: 10vh;
+  height: 93vh;
+  padding: 30px 30px;
+  background: #fff;
+  overflow-x: scroll;
 }
 .signinPage .title {
   margin: 0;
@@ -16,7 +19,7 @@
   padding: 12px;
   width: 200px;
   border-radius: 21px;
-  background: #29b744;
+  background: #1e65fd;
   color: #fff;
   text-align: center;
   border: none;

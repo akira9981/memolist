@@ -1,8 +1,8 @@
-body {
-  overflow: visible;
-}
 .sinupPage {
-  margin-top: 10vh;
+  height: 93vh;
+  padding: 30px 30px;
+  background: #fff;
+  overflow-x: scroll;
 }
 .sinupPage .titleArea {
   text-align: center;
@@ -16,16 +16,4 @@ body {
 }
 .sinupPage .signupForm .form-group .form-control {
   background: #f6f8fa;
-}
-.sinupPage .submitBtn {
-  background: #29b744;
-  color: #fff;
-  width: 200px;
-  margin-top: 20px;
-  padding: 10px;
-  border-radius: 90px;
-  transition: opacity 0.5s;
-}
-.sinupPage .submitBtn:hover {
-  opacity: 0.6;
 }
