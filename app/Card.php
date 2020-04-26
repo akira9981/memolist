@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Listing extends Model
+class Card extends Model
 {
-    return $this->hasMany('App\Card');
+    //
 }
