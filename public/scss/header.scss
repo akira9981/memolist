@@ -1,6 +1,7 @@
 .header {
-  background: #026aa7;
-  padding: 10px;
+  background: #fff;
+  padding: 0;
+  width: 100%;
   .nav {
     .header_menu {
       display: flex;
@@ -12,9 +13,9 @@
       align-items: center;
       li {
         list-style: none;
-        color: #fff;
+        color: black;
         a {
-          color: #fff;
+          color: black;
         }
       }
       &_title {
@@ -27,14 +28,16 @@
       }
       &_inner {
         display: flex;
-        padding: 0;
         align-items: center;
+        height: 50px;
         .listNew {
+          position: relative;
+          margin: 20px 0 0 0;
           &:after {
             font-family: "Font Awesome 5 Free";
             content: "\f044";
             display: inline-block;
-            margin-left: 10px;
+            margin-left: 5px;
             font-size: 20px;
           }
         }

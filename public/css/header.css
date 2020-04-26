@@ -1,6 +1,7 @@
 .header {
-  background: #026aa7;
-  padding: 10px;
+  background: #fff;
+  padding: 0;
+  width: 100%;
 }
 .header .nav .header_menu {
   display: flex;
@@ -13,10 +14,10 @@
 }
 .header .nav .header_menu li {
   list-style: none;
-  color: #fff;
+  color: black;
 }
 .header .nav .header_menu li a {
-  color: #fff;
+  color: black;
 }
 .header .nav .header_menu_title {
   position: absolute;
@@ -28,13 +29,17 @@
 }
 .header .nav .header_menu_inner {
   display: flex;
-  padding: 0;
   align-items: center;
+  height: 50px;
+}
+.header .nav .header_menu_inner .listNew {
+  position: relative;
+  margin: 20px 0 0 0;
 }
 .header .nav .header_menu_inner .listNew:after {
   font-family: "Font Awesome 5 Free";
   content: "\f044";
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 5px;
   font-size: 20px;
 }
