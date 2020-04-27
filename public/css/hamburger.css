@@ -1,4 +1,4 @@
-.header .header_menu .global-nav {
+.global-nav {
   position: fixed;
   right: -320px;
   top: 0;
@@ -8,35 +8,33 @@
   background-color: #fff;
   transition: all 0.6s;
   z-index: 200;
-  overflow-y: auto;
 }
-.header .header_menu .global-nav_list {
+.global-nav_list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.header .header_menu .global-nav_list_item {
-  text-align: center;
-  padding: 0 14px;
-}
-.header .header_menu .global-nav_list_item a {
+.global-nav_list a {
   display: block;
   padding: 8px 0;
   border-bottom: 1px solid #eee;
   text-decoration: none;
-  color: #111;
 }
-.header .header_menu .global-nav_list_item a:hover {
-  background-color: #eee;
+.global-nav_list a:hover {
+  background-color: pink;
 }
-.header .header_menu .hamburger {
+.global-nav_item {
+  text-align: center;
+  padding: 0 14px;
+}
+.hamburger {
   position: absolute;
   right: 20px;
   width: 40px;
   height: 40px;
   cursor: pointer;
 }
-.header .header_menu .hamburger .hamburger_line1 {
+.hamburger .hamburger_line1 {
   display: inline-block;
   position: absolute;
   height: 2px;
@@ -45,7 +43,7 @@
   transition: all 0.6s;
   top: 16px;
 }
-.header .header_menu .hamburger .hamburger_line2 {
+.hamburger .hamburger_line2 {
   display: inline-block;
   position: absolute;
   height: 2px;
@@ -54,7 +52,7 @@
   transition: all 0.6s;
   top: 22px;
 }
-.header .header_menu .hamburger .hamburger_line3 {
+.hamburger .hamburger_line3 {
   display: inline-block;
   position: absolute;
   height: 2px;
@@ -63,7 +61,7 @@
   transition: all 0.6s;
   top: 28px;
 }
-.header .header_menu .black-bg {
+.black-bg {
   position: fixed;
   left: 0;
   top: 0;
@@ -76,22 +74,22 @@
   transition: all 0.6s;
   cursor: pointer;
 }
-.header .header_menu .nav-open .global-nav {
+.nav-open .global-nav {
   right: 0;
 }
-.header .header_menu .nav-open .black-bg {
+.nav-open .black-bg {
   opacity: 0.8;
   visibility: visible;
 }
-.header .header_menu .nav-open .hamburger_line1 {
+.nav-open .hamburger_line1 {
   transform: rotate(45deg);
   top: 20px;
 }
-.header .header_menu .nav-open .hamburger_line2 {
+.nav-open .hamburger_line2 {
   width: 0;
   left: 50%;
 }
-.header .header_menu .nav-open .hamburger_line3 {
+.nav-open .hamburger_line3 {
   transform: rotate(-45deg);
   top: 20px;
 }
