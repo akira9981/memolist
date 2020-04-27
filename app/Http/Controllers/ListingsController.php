@@ -36,7 +36,7 @@ class ListingsController extends Controller
         $listings = new Listing;
         $listings->title = $request->list_name;
         $listings->user_id = Auth::user()->id;
-
+        $listings->color = $request->list_color;
         $listings->save();
         return redirect('/');
     }
