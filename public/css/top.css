@@ -92,3 +92,26 @@
   color: #fff;
   text-shadow: 0px 0px 2px #000, 2px 2px 3px #000;
 }
+color {
+  --blue: #2890e6;
+  --indigo: #6574cd;
+  --purple: #773bcf;
+  --pink: #f76092;
+  --red: #f32a1c;
+  --orange: #fc942d;
+  --yellow: #fce72e;
+  --green: #27ad5f;
+  --teal: #4dc0b5;
+  --cyan: #6cb2eb;
+  --white: #fff;
+  --gray: #7e8183;
+  --gray-dark: #343a40;
+  --primary: #3490dc;
+  --secondary: #6c757d;
+  --success: #38c172;
+  --info: #6cb2eb;
+  --warning: #ffed4a;
+  --danger: #e3342f;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
