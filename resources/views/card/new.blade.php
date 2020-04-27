@@ -7,13 +7,13 @@
       {{csrf_field()}} 
       <input value="{{ $listing_id }}" type="hidden" name="listing_id">
       <div class="cardnewForm_title">
-        <label for="card_title">タイトル</label>
-        <input autofocus="autofocus" class="form-control" placeholder="カード名" type="text" name="card_title" value="{{ old('card_title') }}">
+        <label for="card_title">Title</label>
+        <input autofocus="autofocus" class="form-control" placeholder="card name" type="text" name="card_title" value="{{ old('card_title') }}">
       </div>
       <div class="cardnewForm_memo">
-        <label for="card_memo">メモ</label>
-        <textarea autofocus="autofocus" class="form-control" placeholder="詳細" name="card_memo">{{ old('card_memo') }}</textarea>
-      <div class="text-center"><input type="submit" name="commit" value="作成する" class="submitBtn" data-disable-with="作成する"></div>
+        <label for="card_memo">Memo</label>
+        <textarea autofocus="autofocus" class="form-control" placeholder="the details" name="card_memo">{{ old('card_memo') }}</textarea>
+      <div class="text-center"><input type="submit" name="commit" value="Create" class="submitBtn" data-disable-with="Create"></div>
       </div>
     </form>
   </div>

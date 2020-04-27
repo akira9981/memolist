@@ -3,15 +3,15 @@
 @section('content')
 <div class="signinPage">
   <div class="container">
-    <h2 class="title">Memolistにログイン</h2>
+    <h2 class="title">Memolist Sign in</h2>
     <div class="text-center m-3">or</div>
     <div class="text-center">
-      <p class="acountPage_link"><a href="{{ route('register') }}">アカウントを作成</a></p>
+      <p class="acountPage_link"><a href="{{ route('register') }}">Create an Account</a></p>
     </div>
     <form class="new_user" id="new_user" action="{{ route('login') }}" accept-charset="UTF-8" method="post">
     {{ csrf_field() }}
       <div class="form-group">
-        <label for="user_email">メールアドレス</label><br>
+        <label for="user_email">Mail Address</label><br>
         <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
         @if ($errors->has('email'))
             <span class="help-block">
@@ -21,7 +21,7 @@
       </div>
 
       <div class="form-group">
-        <label for="user_password">パスワード</label><br>
+        <label for="user_password">Password</label><br>
         <input id="password" type="password" class="form-control" name="password" required>
         @if ($errors->has('password'))
             <span class="help-block">
@@ -31,7 +31,7 @@
       </div>
 
       <div class="form-group text-center">
-        <input type="submit" name="commit" value="ログインする" class="loginBtn" data-disable-with="ログインする">
+        <input type="submit" name="commit" value="Sign in" class="loginBtn" data-disable-with="Sign in">
       </div>
     </form>
   </div>

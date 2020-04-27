@@ -28,14 +28,14 @@
 <header class="header">
   <nav class="nav">
     <ul class="header_menu">
-      <li class="nav-link">{{Auth::user()->name }}さん</li>
+      <li class="nav-link">{{Auth::user()->name }}</li>
       <li class="header_menu_title">
           <a class="nav-link listNew" href="/">MemoList</a>
       </li>
       <li class="global-nav">
         <ul class="global-nav_list">
-          <li class="global-nav_item"><a href="{{ route('new') }}">リストを作成</a></li>
-          <li class="global-nav_item"><a href="{{ route('logout') }}"onclick="event.preventDefault();document.getElementById('logout-form').submit();">ログアウト</a></li>
+          <li class="global-nav_item"><a href="{{ route('new') }}">Add List</a></li>
+          <li class="global-nav_item"><a href="{{ route('logout') }}"onclick="event.preventDefault();document.getElementById('logout-form').submit();">Sign out</a></li>
         </ul>
       </li>
       <div class="hamburger" id="js-hamburger">
@@ -47,11 +47,11 @@
       <li>
         <ul class="header_menu_inner">
           <li>
-              <a class="nav-link listNew" href="{{ route('new') }}">リストを作成</a>　　
+              <a class="nav-link listNew" href="{{ route('new') }}">add list</a>　　
           </li>
           <li>
             <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
-              ログアウト
+              Logout
             </a>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
               {{ csrf_field() }}
