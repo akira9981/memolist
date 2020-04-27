@@ -56,6 +56,7 @@ class ListingsController extends Controller
         }
         $listing = Listing::find($request->id);
         $listing->title = $request->list_name;
+        $listing->color = $request->list_color;
         $listing->save();
         return redirect('/');
     }
