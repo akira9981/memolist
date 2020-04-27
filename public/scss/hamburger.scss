@@ -10,7 +10,7 @@
   transition: all .6s;
   z-index: 200;
   &_list{
-    margin: 0;
+    margin: 60px 0 0 0;
     padding: 0;
     list-style: none;
     a {
@@ -33,6 +33,7 @@
   right: 20px;
   width: 40px; 
   height: 40px;
+  z-index: 300;
   cursor: pointer;
   .hamburger_line1 {
     display: inline-block;
@@ -94,5 +95,11 @@
   .hamburger_line3 {
     transform: rotate(-45deg);
     top: 20px;
+  }
+}
+
+@media screen and (min-width: 801px){
+  .hamburger{
+    display: none;
   }
 }

@@ -35,11 +35,8 @@
       </li>
       <li class="global-nav">
         <ul class="global-nav_list">
-          <li class="global-nav_item"><a href="">メニュー1</a></li>
-          <li class="global-nav_item"><a href="">メニュー2</a></li>
-          <li class="global-nav_item"><a href="">メニュー3</a></li>
-          <li class="global-nav_item"><a href="">メニュー4</a></li>
-          <li class="global-nav_item"><a href="">メニュー5</a></li>
+          <li class="global-nav_item"><a href="{{ route('new') }}">リストを作成</a></li>
+          <li class="global-nav_item"><a href="{{ route('logout') }}"onclick="event.preventDefault();document.getElementById('logout-form').submit();">ログアウト</a></li>
         </ul>
       </li>
       <div class="hamburger" id="js-hamburger">

@@ -1,6 +1,7 @@
 .header {
   background: #fff;
   padding: 0;
+  height: 50px;
   width: 100%;
   border-bottom-style: double;
 }
@@ -21,12 +22,14 @@
   color: black;
 }
 .header .nav .header_menu_title {
-  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   font-size: 25px;
   font-weight: bold;
 }
 .header .nav .header_menu_inner {
-  display: none;
   align-items: center;
   height: 50px;
 }
@@ -40,4 +43,14 @@
   display: inline-block;
   margin-left: 5px;
   font-size: 20px;
+}
+@media screen and (min-width: 801px) {
+  .header_menu_inner {
+    display: flex;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header_menu_inner {
+    display: none;
+  }
 }

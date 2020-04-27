@@ -9,7 +9,7 @@
     align-items: baseline;
     .list {
       position: relative;
-      background: #b4b0b0;
+      background: #8ee3ec;
       padding: 10px;
       margin-left: 20px;
       min-width: 250px;
@@ -43,7 +43,8 @@
           }
           .fa-pen, .fa-trash {
             font-size: 18px;
-            color: #8c8c8c;
+            color: #b4f3e5;
+            text-shadow: 0px 0px 2px #000, 2px 2px 3px #000;
           }
         }
       }
