@@ -15,7 +15,7 @@
         </select>
       </div>
       <div class="cardeditForm_title">
-        <label for="card_title">Title</label>
+        <label for="card_title">Card Name</label>
         <input class="form-control" placeholder="カード名" type="text" value="{{ old('card_title',$card->title) }}" name="card_title">
       </div>
       <div class="cardeditForm_memo">

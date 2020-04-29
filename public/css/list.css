@@ -10,3 +10,10 @@
 .panel-body .form-horizontal .col-sm-6 {
   margin: 0 auto;
 }
+.panel-body .form-horizontal .col-sm-3 {
+  margin: 20px 0;
+}
+.panel-body .select-color {
+  width: 150px;
+  margin: 0 auto;
+}
