@@ -1,12 +1,13 @@
 .footer{
-  display: inline-block;
-  position: absolute;
-  bottom: 16px;
-  right: 50px;
+  display: block;
+  position: relative;
+  bottom: 35px;
   .writing-instrument{
     display: inline-block;
     height: 40px;
     width: 250px;
+    position: absolute;
+    right: 10px;
     .pen{
       display: inline-block;
       .pen1{
